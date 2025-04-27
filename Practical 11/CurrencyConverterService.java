@@ -38,3 +38,6 @@ public class CurrencyConverterService {
         return Response.ok(response).build();
     }
 }
+
+// URL For Output
+// http://localhost:8081/mavenproject1/ws/currency/convert?from=USD&to=INR&amount=100
